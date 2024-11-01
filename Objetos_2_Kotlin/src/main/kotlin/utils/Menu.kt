@@ -1,10 +1,10 @@
 package utils
 
 import gestionBiblioteca.ejercicioGestionBiblioteca as ej1
-import gestionEstudiantes.ejercicioGestionEstudiantes as ej2
-import gestorTareas.ejercicioGestorTareas as ej3
-import juegoRol.ejercicioJuegoRol as ej4
-import reservasHotel.ejercicioReservasHotel as ej5
+import gestionEstudiantes.ejercicioGestionEstudiantes as ej4
+import gestorTareas.ejercicioGestorTareas as ej5
+import juegoRol.ejercicioJuegoRol as ej3
+import reservasHotel.ejercicioReservasHotel as ej2
 
 /**
  * Clase que representa el menú principal de la aplicación.
