@@ -1,10 +1,8 @@
-package org.example.gestionBiblioteca
+package gestionBiblioteca
 
-import gestionBiblioteca.Biblioteca
-import gestionBiblioteca.Libro
-import gestionBiblioteca.Usuario
+fun ejercicioGestionBiblioteca(){
+    println("\n** Ejercicio gestión biblioteca **")
 
-fun main(args: Array<String>) {
     val user1 = Usuario("Adri", mutableListOf())
     val user2 = Usuario("Juan", mutableListOf())
 
@@ -23,7 +21,6 @@ fun main(args: Array<String>) {
     biblioteca.devolverLibro(libro2,user2)
 
     biblioteca.prestarLibro(libro2, user1)
-
 
     biblioteca.mostrarInfoUsersLibros()
 }

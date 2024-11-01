@@ -26,9 +26,9 @@ class Proyecto(
         }
     }
 
-    fun mostrarTareas(){
+    fun mostrarTareasSinCompletar(){
         if (tareas.size > 0){
-            println("Lista tareas: ")
+            println("Lista tareas sin completar: ")
             tareas.forEach{
                 println(it)
             }

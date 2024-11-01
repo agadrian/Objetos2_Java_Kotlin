@@ -1,6 +1,8 @@
 package juegoRol
 
-fun main(args: Array<String>) {
+
+fun ejercicioJuegoRol(){
+    println("\n** Ejercicio juego de rol **")
 
     val guerrero = Guerrero("G1", 100, 10)
     val mago = Mago("Oz", 100, 50)
@@ -14,10 +16,4 @@ fun main(args: Array<String>) {
     guerrero.atacar(mago)
     guerrero.atacar(mago)
     guerrero.atacar(mago)
-    guerrero.atacar(mago)
-    guerrero.atacar(mago)
-    guerrero.atacar(mago)
-    guerrero.atacar(mago)
-    guerrero.atacar(mago)
-
 }

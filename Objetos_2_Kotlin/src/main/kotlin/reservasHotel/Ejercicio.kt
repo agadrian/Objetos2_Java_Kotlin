@@ -1,10 +1,7 @@
-package org.example.reservasHotel
+package reservasHotel
 
-import reservasHotel.Cliente
-import reservasHotel.GestionReservas
-import reservasHotel.Habitacion
-
-fun main(args: Array<String>) {
+fun ejercicioReservasHotel() {
+    println("\n** Ejercicio reservas hotel **")
 
     val hab1 = Habitacion("12")
     val cliente1 = Cliente("Patricia")
@@ -22,5 +19,4 @@ fun main(args: Array<String>) {
     gestionReservas.mostrarReservas()
     gestionReservas.cancelarHabitacion(cliente2, hab1)
     gestionReservas.cancelarHabitacion(cliente1, hab1)
-
 }

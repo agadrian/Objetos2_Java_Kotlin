@@ -1,10 +1,7 @@
-package org.example.gestionEstudiantes
+package gestionEstudiantes
 
-import gestionEstudiantes.Curso
-import gestionEstudiantes.Estudiante
-import gestionEstudiantes.Profesor
-
-fun main() {
+fun ejercicioGestionEstudiantes(){
+    println("\n** Ejercicio gestión estudiantes **")
 
     val profesor = Profesor("Pedro")
     val curso1 = Curso("2º Bachillerato")
@@ -33,7 +30,4 @@ fun main() {
 
     profesor.asignarCurso(curso1, estudiante2)
     profesor.calcularMedia(estudiante2)
-
-
-
 }

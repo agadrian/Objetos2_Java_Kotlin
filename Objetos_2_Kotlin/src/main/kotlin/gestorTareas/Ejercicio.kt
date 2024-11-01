@@ -1,6 +1,7 @@
 package gestorTareas
 
-fun main() {
+fun ejercicioGestorTareas(){
+    println("\n** Ejercicio gestor tareas **")
 
     val usuario1 = Usuario("Adri")
     val tarea1 = Tarea("Crear menu app", "Menu app ADA")
@@ -13,10 +14,9 @@ fun main() {
         proyecto1.agregarTarea(tarea2)
 
         proyecto1.completarTarea(tarea1)
-        proyecto1.completarTarea(tarea2)
-        proyecto1.completarTarea(tarea2)
+
         proyecto1.agregarTarea(tarea2)
+
+        proyecto1.mostrarTareasSinCompletar()
     }
-
-
 }
